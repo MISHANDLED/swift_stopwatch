@@ -43,7 +43,7 @@ class ViewController: UIViewController {
             pauseBtn.titleLabel?.text = "Resume"
         } else {
             startTimer()
-            pauseBtn.titleLabel?.text = "Pause"
+            pauseBtn.titleLabel?.text = "Paused"
         }
         
         isPause.toggle()
